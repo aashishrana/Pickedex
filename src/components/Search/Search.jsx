@@ -1,8 +1,14 @@
+import "./Search.css"
+
 function Search() {
     return (
-        <>
-          <h2>Radhe Radhe</h2>
-        </>
+        <div className="search-wrapper">
+          <input 
+            id="pokemon-name-search"
+            type="text"
+            placeholder="pokemon name ...." 
+          />
+        </div>
     )
 }
 
